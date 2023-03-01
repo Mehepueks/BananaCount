@@ -12,9 +12,9 @@ import pageObjects.FruitsAndVegetables;
 import pageObjects.Groceries;
 import pageObjects.Homepage;
 
-public class AddIAmountB extends Hooks {
+public class AddAmountB extends Hooks {
 	
-	public AddIAmountB() throws IOException {
+	public AddAmountB() throws IOException {
 		super();
 	}
 

@@ -3,13 +3,13 @@
 <suite name="Suite"  thread-count="2" > 
   <test thread-count="5" name="TestMontePlus">
     <classes>
-      <class name="ee.testMyPage.AddItemsToBasketA"/>
+      <class name="ee.testMyPage.AddAmountA"/>
     </classes>
   </test> <!-- Test -->
   
   <test thread-count="5" name="TestFairTrade">
     <classes>
-      <class name="ee.testMyPage.AddItemsToBasketB"/>
+      <class name="ee.testMyPage.AddAmountB"/>
     </classes>
     </test>
   
