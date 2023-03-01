@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  thread-count="2" > 
+  <test thread-count="5" name="TestMontePlus">
+    <classes>
+      <class name="ee.testMyPage.AddItemsToBasketA"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="TestFairTrade">
+    <classes>
+      <class name="ee.testMyPage.AddItemsToBasketB"/>
+    </classes>
+    </test>
+  
+  
+</suite> <!-- Suite -->
+
+<!--parallel="tests"  -->
