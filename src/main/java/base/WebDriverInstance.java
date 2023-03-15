@@ -44,7 +44,9 @@ public class WebDriverInstance {
 			System.setProperty("webdriver.chrome.driver", 
 					System.getProperty("user.dir") + "\\src\\main\\java\\drivers\\chromedriver.exe");
 				
-					
+		//Added to overcome error by updated chrome version		
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("remote-allow-origins=*");			
 
 			
 			driver = new ChromeDriver();
